@@ -3,6 +3,7 @@
  This a programme to compress a text file using Huffman encoding.
  After the encoding is done a file is usually passed on a channel and at the recieving end it is supposed to be decoded.
  This programme uses LBC(Linear Block code) to decode the encoded text.
+ 
  Important points:
 * The code length in huffman coding depends upon the frequency of the character most frequent characters have the smallest code.
 * Time complexity for assigning code to character is O(n log n)
